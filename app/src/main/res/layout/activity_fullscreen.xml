@@ -14,17 +14,21 @@
          android:fitsSystemWindows. -->
 
     <Button
-        android:text="Button button"
-        android:layout_width="184dp"
-        android:layout_height="0dp"
+        android:text=" "
+        android:layout_width="181dp"
+        android:layout_height="75dp"
         android:id="@+id/button2"
+        android:color="66FF0000"
+        android:alpha="0.001"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginLeft="176dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginLeft="112dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
 
     <TextView
         android:id="@+id/fullscreen_content"
@@ -71,11 +75,11 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="376dp"
+        android:layout_width="383dp"
         android:layout_height="511dp"
         app:srcCompat="@drawable/classbg"
         tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteX="1dp"
         android:id="@+id/imageView2"
         android:layout_weight="0.55" />
 
